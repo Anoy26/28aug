@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+} 
+
+.student1 {
+    /* width: 100; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(ju.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.student2{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+    cursor: pointer;
+}
+.student2 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.student2 ul li a{
+    text-decoration: none;
+    color: skyblue;
+    text-transform: uppercase;
+}
+.student2 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transform: 0.5s;
+}
+.student2 ul li:hover::after{
+    width: 100%;
+}
+.student3{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: skyblue;
+}
+.student3 h1{
+    font-size: 40px;
+    margin: 32px 0 48px 0;
+}
+.student3{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.student3 p{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    display: block;
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.button:hover span{
+    width: 100%;
+}
+.button:hover{
+    border: none;
+}
+
+
+
+
+.student4{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+    cursor: pointer;
+}
+.student4 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.student4 ul li a{
+    text-decoration: none;
+    color: rgb(10, 229, 43);
+    text-transform: uppercase;
+}
+.student4 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transform: 0.5s;
+}
+.student4 ul li:hover::after{
+    width: 100%;
+}
+
+
